@@ -5,7 +5,7 @@ def diff(file_first, file_second):
     resultat=False
     with open(file_first) as file_first_id:
 		with open(file_second) as file_second_id:
-			resultat= file1.id.read()!=file_id.read()
+			resultat= file1.id.read() != file_id.read()
 	return resultat
 
 def same(file_first, file_second):
