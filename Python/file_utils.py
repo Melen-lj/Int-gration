@@ -1,5 +1,5 @@
 """Module manipulant des fichiers texte."""
-from filecmp import file_utils
+from .utils import file_utils
 def diff(file_first, file_second):
     """Fonction retournant True si deux fichiers sont différents."""
     resultat=False
