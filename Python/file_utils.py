@@ -1,11 +1,10 @@
 """Module manipulant des fichiers texte."""
-from .utils import file_utils
 def diff(file_first, file_second):
     """Fonction retournant True si deux fichiers sont différents."""
     resultat=False
     with open(file_first) as file_first_id:
 		with open(file_second) as file_second_id:
-			resultat= file1.id.read() != file_id.read()
+			resultat= file1.id.read() != file2_id.read()
 	return resultat
 
 def same(file_first, file_second):
